@@ -1,30 +1,11 @@
-# ultraviolet-scripts
-Core Ultraviolet scripts
-
-# Configuration
-Configure Ultraviolet for both client-hooking & service worker in `uv.config.js`
-```javascript
-self.__uv$config = {
-    bare: '/bare/',
-    prefix: '/service/',
-    encodeUrl: Ultraviolet.codec.xor.encode,
-    decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/uv.handler.js',
-    bundle: '/uv.bundle.js',
-    config: '/uv.config.js',
-};
-```
-
-
-# Example Usage
-```javascript
-importScripts('/PATHTOSCRIPTS/uv.sw.js');
-
-const sw = new UVServiceWorker();
-
-self.addEventListener('fetch', event =>
-    event.respondWith(
-        sw.fetch(event)
-    )
-);
-```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google</title>
+</head>
+<body>
+    <iframe src="https://gabesfreelink.fairuse.org" width="100%" height="750" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
